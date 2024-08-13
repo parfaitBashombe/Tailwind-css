@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import rocketdab from '../../public/img/rocketdab.png'
 
 const Home = (): React.JSX.Element => {
   return (
@@ -16,7 +17,7 @@ const Home = (): React.JSX.Element => {
               Think Acme Rockets.
             </p>
           </article>
-         <img src="" alt="" />
+         <Image src={rocketdab}  alt="Rocket Dab" />
         </section>
       </main>
   );
