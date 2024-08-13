@@ -17,8 +17,9 @@ const Home = (): React.JSX.Element => {
               Think Acme Rockets.
             </p>
           </article>
-         <Image src={rocketdab}  alt="Rocket Dab" />
+         <Image src={rocketdab} width={350} height={350} alt="Rocket Dab" />
         </section>
+        <hr className="mx-auto bg-dark dark:bg-white w-1/2" />
       </main>
   );
 };
