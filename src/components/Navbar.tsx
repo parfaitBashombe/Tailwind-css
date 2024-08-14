@@ -13,7 +13,7 @@ const Navbar = (): JSX.Element => {
       <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
         <Link href="#rockets" className="hover:opacity-90">Our Rockets</Link>
         <Link href="#testimonials" className="hover:opacity-90">Testimonials</Link>
-        <Link href="#contact" className="hover:opacity-90">Contact Us</Link>
+        <Link href="#contacts" className="hover:opacity-90">Contact Us</Link>
       </nav>
     </section>
   </header>;
