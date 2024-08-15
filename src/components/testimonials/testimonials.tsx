@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <>
-        <section id="testimonials" className="p-6 sm:px-40 my-12 scroll-m-16">
+        <section id="testimonials" className="p-6 my-12 mx-auto sm:max-w-4xl scroll-m-20 widescreen:section-min-height tallscreen:section-min-height">
           <h2 className="text-4xl-font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
             Testimonials
           </h2>

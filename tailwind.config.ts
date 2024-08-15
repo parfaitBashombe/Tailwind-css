@@ -16,6 +16,10 @@ const config: Config = {
       colors: {
         primary: "#000000",
       },
+      screens:{
+        'widescreen':{'raw':'(min-aspect-ratio:3/2)'},
+        'tallscreen':{'raw':'(min-aspect-ratio:1/2)'},
+      },
     },
   },
   plugins: [],
