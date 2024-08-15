@@ -8,7 +8,7 @@ const Navbar = (): JSX.Element => {
         <Link href="#hero">🚀 Acme Rockets</Link>
       </h1>
       <div>
-        <button id="mobile-open-button" className="text-3xl sm:hidden focus:outline-none">&#9776;</button>
+        <button id="hamburger-button" className="text-3xl sm:hidden focus:outline-none">&#9776;</button>
       </div>
       <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
         <Link href="#rockets" className="hover:opacity-90">Our Rockets</Link>
