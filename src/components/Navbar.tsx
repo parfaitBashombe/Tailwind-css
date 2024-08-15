@@ -8,12 +8,25 @@ const Navbar = (): JSX.Element => {
         <Link href="#hero">🚀 Acme Rockets</Link>
       </h1>
       <div>
-        <button id="hamburger-button" className="text-3xl sm:hidden focus:outline-none">&#9776;</button>
+        <button id="hamburger-button" className="text-3xl md:hidden cursor-pointer">&#9776;</button>
       </div>
-      <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
+      <nav className="hidden md:block space-x-8 text-xl" aria-label="main">
         <Link href="#rockets" className="hover:opacity-90">Our Rockets</Link>
         <Link href="#testimonials" className="hover:opacity-90">Testimonials</Link>
         <Link href="#contacts" className="hover:opacity-90">Contact Us</Link>
+      </nav>
+    </section>
+
+    <section id="mobile-menu" className="absolute top-0 bg-black w-full text-5xl flex flex-col justify-content-center">
+      <button className="text-8xl self-end px-6">
+        &times;
+      </button>
+      <nav className="flex flex-col h-screen items-center py-8" aria-label="mobile">
+        <Link href="#hero" className="w-full text-center py-6 hover:opacity-90">Home</Link>
+        <Link href="#rockets" className="w-full text-center py-6 hover:opacity-90">Our Rockets</Link>
+        <Link href="#testimonials" className="w-full text-center py-6 hover:opacity-90">Testimonials</Link>
+        <Link href="#contacts" className="w-full text-center py-6 hover:opacity-90">Contact Us</Link>
+        <Link href="#footer" className="w-full text-center py-6 hover:opacity-90">Legal</Link>
       </nav>
     </section>
   </header>;
