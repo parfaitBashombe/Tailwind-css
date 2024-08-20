@@ -17,7 +17,7 @@ const Home = (): React.JSX.Element => {
             </h2>
 
             <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
-              We're building rockets for the next century today. From the moon to Mars, Jupiter and beyond...
+              We are building rockets for the next century today. From the moon to Mars, Jupiter and beyond...
             </p>
 
             <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">

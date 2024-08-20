@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Rockets from "@/components/rockets";
 import Testimonials from "@/components/testimonials/testimonials"
 import Contacts from "@/components/contacts/contacts"
-import Footer from "@/components/footer/footer"
+import Footer from "@/components/footer"
 import "./globals.css";
 
 
