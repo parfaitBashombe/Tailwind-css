@@ -15,8 +15,6 @@ const Navbar = (): JSX.Element => {
     setOpen(false);
   }
 
-  console.log(open)
-
   return <header className="bg-teal-700 text-white sticky top-0 z-10">
     <section className="max-w-4xl mx-auto p-4 flex justify-between items-center">
       <h1 className="text-3xl font-medium">
@@ -32,8 +30,8 @@ const Navbar = (): JSX.Element => {
       </nav>
     </section>
 
-    <section id="mobile-menu" className={`absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu ${open? "flex": "hidden"}`}>
-      <button onClick={() => onClosedMenu()} className="text-8xl self-end px-6">
+    <section onClick={() => onClosedMenu()} id="mobile-menu" className={`absolute top-0 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu ${open? "flex": "hidden"}`}>
+      <button className="text-8xl self-end px-6">
         &times;
       </button>
       <nav className="flex flex-col h-screen items-center py-8" aria-label="mobile">
