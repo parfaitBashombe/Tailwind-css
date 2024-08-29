@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Tutorial Code",
+  title: "Acme Rockets",
   description: "This is a tutorial",
   keywords: ["coding", "next"],
 };
